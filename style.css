@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 100%;
+    width: 60vw;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.main h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+.container{
+    background-color: coral;
+    border-radius: 20px;
+    display: flex;
+    width: 35vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box{
+    height: 20vh;
+    width: 10vw;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.285);
+    padding: 10px;
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+}
+.reset{
+    padding: 20px;
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.newgame{
+    padding: 20px;
+    margin: 10px;
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.winner{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 10px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hide{
+    display: none;
+}
+.div{
+    height: 30vh;
+    width: 30vw;
+    position: absolute;
+    background-color: black;
+    color: white;
+    transition: all 2s ease-in;
+}
